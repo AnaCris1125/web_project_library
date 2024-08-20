@@ -310,6 +310,7 @@
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
+  column-gap: 40px;
 }
 
 .step {
@@ -338,6 +339,7 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   padding: 60px 80px;
+  color: #000000;
 }
 
 .footer__columns {
@@ -363,6 +365,7 @@
 }
 
 .footer__column-heading {
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -380,6 +383,9 @@
   color: white;
   text-decoration: none;
   margin-left: 10px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
